@@ -36,10 +36,11 @@ pip install -r requirements.txt
 
 ### Command Line Arguments
 
-- `--model_name`: Name of the EfficientNet model to use (`efficientnet-b0` or `efficientnet-b4`). Default is `efficientnet-b0`.
 - `--save_path`: Path to save results, models, and extracted features. Default is `./result`.
 - `--save_feat`: Whether to save extracted features as a pickle file. Default is `True`.
 - `--quantize`: Whether to enable quantization for the TensorFlow Lite model. Default is `True`.
+
+- future - `--model_name`: Name of the EfficientNet model to use (`efficientnet-b0` or `efficientnet-b4`). Default is `efficientnet-b0`. 
 
 ### Example
 
